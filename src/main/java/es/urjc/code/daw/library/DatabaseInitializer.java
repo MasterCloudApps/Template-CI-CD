@@ -1,12 +1,11 @@
 package es.urjc.code.daw.library;
 
-import javax.annotation.PostConstruct;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import es.urjc.code.daw.library.book.Book;
 import es.urjc.code.daw.library.book.BookRepository;
+import jakarta.annotation.PostConstruct;
 
 @Component
 public class DatabaseInitializer {
